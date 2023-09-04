@@ -1,0 +1,45 @@
+==============================================================================
+TestCases                                                                     
+==============================================================================
+TestCases.Sample5                                                             
+==============================================================================
+TC1 :: launching browser                                              chromebrowser launched and navigated successfully
+| PASS |
+------------------------------------------------------------------------------
+TC2 :: Working on web elements                                        default Selenium timeout :1 second
+New Selenium timeout :
+current selenium speed :
+| PASS |
+------------------------------------------------------------------------------
+TC3 :: getting list count and names                                   total links on page :13
+
+open cart
+orange HRM
+Home
+Posts (Atom)
+1
+2
+3
+4
+
+
+mariusFM77
+Blogger
+| PASS |
+------------------------------------------------------------------------------
+TC4 :: getting textbox count and names                                total textboxes on page :7
+
+
+
+
+
+
+| PASS |
+------------------------------------------------------------------------------
+TestCases.Sample5                                                     | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+TestCases                                                             | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Praveen\PycharmProjects\pythonProject6\Results\pabot_results\4\output.xml

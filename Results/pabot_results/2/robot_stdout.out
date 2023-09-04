@@ -1,0 +1,64 @@
+==============================================================================
+TestCases                                                                     
+==============================================================================
+TestCases.Sample3                                                             
+==============================================================================
+TC1 :: launching browser                                              chromebrowser launched and navigated successfully
+| PASS |
+------------------------------------------------------------------------------
+TC2 :: Working on web elements                                          
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Praveen\PycharmProjects\pythonProject6\TestCases\sample3.robot:12
+    T:  TC2    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Praveen\PycharmProjects\pythonProject6\TestCases\sample3.robot:23
+      Scroll Element Into View    //label[contains(text(),'Country:')]
+______________________________________________________________________________
+| FAIL |
+MoveTargetOutOfBoundsException: Message: (253, 691) is out of bounds of viewport width (1366) and height (643)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:473:5
+assertInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2119:11
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1016:21
+dispatch/pendingEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1833:14
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1832:39
+dispatch/chainEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1758:27
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1760:7
+performActions@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:503:23
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:145:31
+------------------------------------------------------------------------------
+TC3 :: getting list count and names                                   total links on page :13
+
+open cart
+orange HRM
+Home
+Posts (Atom)
+1
+2
+3
+4
+
+
+mariusFM77
+Blogger
+| PASS |
+------------------------------------------------------------------------------
+TC4 :: getting textbox count and names                                total textboxes on page :7
+
+
+
+
+
+
+| PASS |
+------------------------------------------------------------------------------
+TestCases.Sample3                                                     | FAIL |
+4 tests, 3 passed, 1 failed
+==============================================================================
+TestCases                                                             | FAIL |
+4 tests, 3 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Praveen\PycharmProjects\pythonProject6\Results\pabot_results\2\output.xml

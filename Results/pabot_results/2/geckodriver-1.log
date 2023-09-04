@@ -1,0 +1,69 @@
+1692773496511	geckodriver	INFO	Listening on 127.0.0.1:65143
+1692773499696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65144" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Praveen\\AppData\\Local\\Temp\\rust_mozprofilex8LOrg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692773500646	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692773500785	Marionette	INFO	Listening on port 65229
+WebDriver BiDi listening on ws://127.0.0.1:65144
+Read port: 65229
+1692773501174	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65144/devtools/browser/d211b4a8-1d32-4401-b188-a27a8bd2b8b1
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+Extension error: TypeError: chrome.extension.sendMessage is not a function moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/devtools/devtools.js 27
+[[Exception stack
+handleShown@moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/devtools/devtools.js:27:20
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:693:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2770:39
+]]
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:23:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:43:19
+fixupAndLoadURIString@resource://gre/modules/RemoteWebNavigation.sys.mjs:129:56
+fixupAndLoadURIString/<@chrome://global/content/elements/browser-custom-element.js:840:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:768:9
+fixupAndLoadURIString@chrome://global/content/elements/browser-custom-element.js:839:12
+createBrowserElement@chrome://browser/content/parent/ext-devtools-panels.js:86:18
+Extension error: TypeError: allNode is undefined moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/devtools/devtools-script.js 104
+[[Exception stack
+showAllMatchingNode@moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/devtools/devtools-script.js:104:23
+@moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/devtools/devtools-script.js:266:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:693:41
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.sys.mjs:2770:39
+]]
+JavaScript error: moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://34e1a6af-c3ed-4e26-9a2d-f1bef992c0e3/extension/background.js, line 54: Error: Promised response from onMessage listener went out of scope
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs, line 304: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn1.watcher2
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC, line 369: Script terminated by timeout at:
+Yo@https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC:369:814
+Pv@https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC:410:689
+fF/<@https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC:568:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC:519:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC:518:420
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1692774554565	Marionette	INFO	Stopped listening on port 65229
+Dynamically enable window occlusion 1
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16140, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443

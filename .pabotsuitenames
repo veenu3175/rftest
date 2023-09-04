@@ -1,0 +1,9 @@
+datasources:203a0e14f317586809c4733cd3b7e0a0e2008749
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:27669c5cc3ab8013e6745198484812d48a178491
+--suite TestCases.Sample1
+--suite TestCases.Sample2
+--suite TestCases.Sample3
+--suite TestCases.Sample4
+--suite TestCases.Sample5

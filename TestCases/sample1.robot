@@ -10,7 +10,7 @@ Library    SeleniumLibrary
 *** Test Cases ***
 TC1
       [Tags]    sanity
-      [Documentation]    launching browser
+      [Documentation]    launching browser this is an updated sample for github actions
     open browser    https://testautomationpractice.blogspot.com/        chrome
     maximize browser window
     log to console   chromebrowser launched and navigated successfully
